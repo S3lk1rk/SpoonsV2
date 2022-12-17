@@ -7,7 +7,7 @@ The purpose of the application was to create a responsive, single-page cookery a
 expected to use JavaScript and React to create the interface.
 The basic requirements for the application were that it should allow users to
 
-- [x]search for recipes
+- [x] search for recipes
 - [x] filter them based on the ingredients they have available
 - [x] view nutritional information
 - [x] rate recipes
