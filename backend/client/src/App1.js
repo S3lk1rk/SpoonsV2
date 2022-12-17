@@ -33,8 +33,8 @@ export default function App() {
   }]);
 
   const touchData = useCallback(() => {
-    const url = "http://localhost:3001/recipe";
-    fetch(url)
+
+    fetch(/recipe)
       .then((response) => response.json())
       .then((incomingData) => {
         console.log(incomingData)
