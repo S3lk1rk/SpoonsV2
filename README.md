@@ -3,11 +3,22 @@ Matthew Selkirk's Coursework for FEWD
 please 🐻 bear with, the initial load ⏰ time for the application may be lengthy due to the nature of single page applications loading everything at once.
 
 ## Purpose of the application
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-a copy of the application can be found at [Matthews Heroku app](https://google.com/)
+The purpose of the application was to create a responsive, single-page cookery application. Which is
+expected to use JavaScript and React to create the interface.
+The basic requirements for the application were that it should allow users to
+
+• search for recipes
+• filter them based on the ingredients they have available
+• view nutritional information
+• rate recipes
+• create menus and shopping lists
+
+All of these criteria have been met by the project and an additional step of adding a backend was undertaken to match the design specification created for part A of the coursework
 
 ## 🚀 Running the application
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+a copy of the application can be found at [Matthews Heroku app](https://google.com/)
 In the project directory, you can run:
 
 ### `prerequisites`
