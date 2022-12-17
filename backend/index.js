@@ -1,31 +1,33 @@
+const path = require('path');
+const express = require('express');
 
-const express = require("express");
 const app = express();
-
 const cors = require('cors');
 app.use(cors());
 
-//const dotenv = require('dotenv');
-require('dotenv').config()
-console.log(process.env)
 
-const path = require('path');
-
-
-const bodyParser = require('body-parser');
+const bodyParser  = require('body-parser');
 app.use(bodyParser.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({extended: false }));
+
+
 
 const router = require('./routes/routes');
-app.use('/', router);
+app.use('/recipe', router);
 
-app.use(express.static(path.join(__dirname, "client", "build")))
+app.use(express.static(path.resolve(dirname, 'frontend','build')));
 
+const PORT = process.env.PORT || 3001;
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-})
+app.get("/recipe", (req, res) => {
+  res.json({ message: "deployed" });
+});
 
-app.listen(process.env.PORT || 3001, () => {
-  console.log("Server started on port 3001. Ctrl^c to quit.");
+app.listen(PORT, () => {
+  console.log(Server listening on ${PORT});
+});
+
+app.get('*', function (req, res) {
+  const index = path.join(dirname, 'frontend','build', 'index.html');
+  res.sendFile(index);
 });

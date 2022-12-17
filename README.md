@@ -1,8 +1,8 @@
 # SpoonsV2
 Matthew Selkirk's Coursework for FEWD
-please 🐻 bear with, the initial load ⏰ time for the application may be lengthy due to the nature of single page applications loading everything at once.
+please 🐻 bear with, the initial load ⏰ time for the application may be lengthy due to the nature of single page applications loading everything at once. a hosted version of the application can be found at [Matthews Heroku app](https://google.com/)
 
-## Purpose of the application
+## 🧬 Purpose of the application
 The purpose of the application was to create a responsive, single-page cookery application. Which is
 expected to use JavaScript and React to create the interface.
 The basic requirements for the application were that it should allow users to
@@ -18,11 +18,10 @@ All of these criteria have been met by the project and an additional step of add
 ## 🚀 Running the application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-a copy of the application can be found at [Matthews Heroku app](https://google.com/)
-In the project directory, you can run:
 
-### `prerequisites`
+### `prerequisites` 
 
+Please ensure that before running the application you can use node package manager to install 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
