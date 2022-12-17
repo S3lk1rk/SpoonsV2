@@ -1,12 +1,17 @@
-import path from "path"
-import { fileURLToPath } from 'url';
+
 const express = require("express");
 const app = express();
-const filename = fileURLToPath(import.meta.url);
-const dirname = path.dirname(__filename);
 
 const cors = require('cors');
 app.use(cors());
+
+const path = require('path');
+
+const dirname = path.dirname(__filename);
+
+
+
+
 
 const bodyParser  = require('body-parser');
 app.use(bodyParser.json());
