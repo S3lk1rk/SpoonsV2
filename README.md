@@ -1,7 +1,11 @@
-# Purpose of the application
-This project was 
+# SpoonsV2
+Matthew Selkirk's Coursework for FEWD
+
+## Purpose of the application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 a copy of the application can be found at [Matthews Heroku app](https://google.com/)
+
+>>>>>>> 96385c09cc0683b7b01eac6fb7f3f93fadd49b0c
 ## Running the application
 
 In the project directory, you can run:
