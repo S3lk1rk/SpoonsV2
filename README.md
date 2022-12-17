@@ -1,5 +1,6 @@
 # SpoonsV2
 Matthew Selkirk's Coursework for FEWD
+please 🐻 bear with, the initial load ⏰ time for the application may be lengthy due to the nature of single page applications loading everything at once.
 
 ## Purpose of the application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,3 +46,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Justification of changes
 
 Due to the lack of familiarity with backend software it was decided that a simplified approach to the database using a single table with dictionairies containing extended information. This information would have been placed in its own table and linked into their current position, however as it is not a primary concern of the coursework task it has been downgraded in priority to achieve.
+
+Lastly I would like to say thank you for taking the time to read this 🥂
