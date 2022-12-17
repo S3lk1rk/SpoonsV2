@@ -5,12 +5,8 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
+
 const path = require('path');
-
-const dirname = path.dirname(__filename);
-
-
-
 
 
 const bodyParser  = require('body-parser');
@@ -20,11 +16,11 @@ app.use(express.urlencoded({extended: false }));
 const router = require('./routes/routes');
 app.use('/', router);
 
-app.use(express.static(path.join(dirname, "client", "build")))
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 })
 
 app.listen(process.env.port || 3001, () => {
